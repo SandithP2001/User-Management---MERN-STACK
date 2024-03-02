@@ -1,0 +1,124 @@
+/* Register.css */
+
+/* Registration Container */
+.registration-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    background-color: #333;
+    height: 100vh;
+  }
+  
+  /* Left Side - Registration Form */
+  .registration-left {
+    width: 50%; /* Set the form to take up 50% of the page width */
+    padding: 20px;
+  }
+  
+  .registration-form {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff; /* Background color for the form */
+  }
+  
+  .registration-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #0056b3;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px 5px 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .form-group button {
+    background-color: #ffc107; /* Button background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .form-group button:hover {
+    background-color: #ef9b0F; /* Button background color on hover */
+  }
+  
+  /* Right Side - Description */
+  .registration-right {
+    width: 50%; /* Set the description to take up 50% of the page width */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .registration-right h2 {
+    padding-top: 35px;
+    font-size: 34px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #ffc107;
+  }
+  
+  .registration-right h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 150px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #ffc107;
+  }
+  
+  .registration-right p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffc107;
+  }
+  
+  .registration-left p{
+    font-weight: bold;
+    font-size: small;
+    margin: 5px 5px 5px 5px;
+    color: white;
+  }
+  
+  .success-message{
+    color: green;
+    font-weight: bolder;
+  }
+  
+  .error-message{
+    color: red;
+    font-weight: bolder;
+  }
+  
+  .login-button{
+    border-radius: 5px;
+    background-color: #ffc107;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .login-button:hover {
+    background-color: #ef9b0F; /* Button background color on hover */
+  }

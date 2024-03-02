@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: space-between;
+  background-color: #444;
+  color: white;
+  font-family: Arial, sans-serif;
+  
+}
+
+.left-section {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Arrange children with space between them */
+}
+
+.right-section {
+  flex: 1;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.uprofile {
+  margin-bottom: 20px;
+}
+
+.save-button,
+.delete-button {
+  margin-right: 10px;
+  background-color: #007acc; /* Blue color for Save and Cancel buttons */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #ff5733; /* Red color for Delete button */
+}
+
+.details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align the details horizontally */
+  padding-top: 150px;
+  font-size: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.sign-out-button {
+  margin-top: 20px;
+  background-color: #007acc; /* Blue color for Sign Out button */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 300px;
+}
+
+
+
+/* Styling for Payment and Booking History buttons */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: auto; /* Push buttons to the bottom */
+}
+
+.payment-history-button,
+.booking-history-button {
+  background-color: #007acc; /* Blue color for the buttons */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 10px; /* Add space between the buttons */
+}
+
+.paragraph{
+  padding-top: 100px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  color: gold;
+}
+
+.para1{
+  font-size: 30px;
+  color: gold;
+  font-weight: bolder;
+
+}
